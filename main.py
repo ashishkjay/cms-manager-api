@@ -10,7 +10,7 @@ app.include_router(
     products.router,
     prefix="/products",
     tags=["products"],
-    responses={418: {"description": "I'm a teapot"}, 200: {"description": "OK"}},
+    responses={ 200: {"description": "OK"}},
 )
 
 @app.get("/")

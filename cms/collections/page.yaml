@@ -1,0 +1,15 @@
+primary:
+  enabled: true
+  field: slug
+fields:
+  name:
+    type: string
+  slug:
+    type: string
+  description:
+    type: string
+  time_created:
+    type: datetime
+  time_modified:
+    type: datetime
+  
